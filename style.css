@@ -1,0 +1,13 @@
+
+
+
+nav ,
+.nav-link {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
