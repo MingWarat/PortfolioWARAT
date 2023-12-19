@@ -174,11 +174,21 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+
+}
+
+.circle-img {
+  border-radius: 50%;
+  display: flex;
+  margin: auto 0;
+  height: 420px;
+  width: 270px;
 }
 
 .section__text {
   align-self: center;
   text-align: center;
+  padding-top: 8em;
 }
 
 .section__text p {
