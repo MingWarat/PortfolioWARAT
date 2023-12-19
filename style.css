@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: linear-gradient(60deg, #161A30,#31304D,#B6BBC4,#F0ECE5);
 }
 
 html {
@@ -16,7 +17,8 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #161A30;
+  font-size: 30px;
 }
 
 /* TRANSITION */
@@ -31,6 +33,7 @@ a,
 nav,
 .nav-links {
   display: flex;
+  color: #F0ECE5;
 }
 
 nav {
@@ -60,6 +63,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: black;
 }
 
 .logo:hover {
@@ -146,6 +150,18 @@ a:hover {
   transform: none;
 }
 
+#desktop-nav .logo {
+  color: #000000;
+}
+
+.logo{
+  width: 200px;
+}
+
+#menu-links {
+  color: #F0ECE5;
+}
+
 /* SECTIONS */
 
 section {
@@ -178,11 +194,10 @@ section {
 }
 
 .circle-img {
-  border-radius: 50%;
   display: flex;
   margin: auto 0;
-  height: 420px;
-  width: 270px;
+  height: 620px;
+  width: 470px;
 }
 
 .section__text {
@@ -197,6 +212,8 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  padding-top: 6em;
+  color: #000000;
 }
 
 .section__text__p2 {
@@ -273,8 +290,20 @@ section {
 
 /* ABOUT SECTION */
 
+.projects ,p,#projects {
+  color:wheat ;
+}
+
+.projects ,p,#section__text__p1 {
+  color:wheat ;
+}
+
+
 #about {
   position: relative;
+}
+#text-container> p{
+  color: #161A30;
 }
 
 .about-containers {
@@ -304,10 +333,10 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 2.5rem;
   flex: 1;
   background: white;
-  border-radius: 2rem;
+  border-radius: 4rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
@@ -343,10 +372,10 @@ section {
   flex-direction: column;
 }
 
-.article-container {
+.article-container1 {
   display: flex;
   text-align: initial;
-  flex-wrap: wrap;
+  flex-wrap: block;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
@@ -375,7 +404,6 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
